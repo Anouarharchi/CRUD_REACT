@@ -1,0 +1,56 @@
+{
+  "posts": [
+    {
+      "id": "95e4",
+      "title": "anouar",
+      "content": "harchi"
+    },
+    {
+      "id": "9ed6",
+      "title": "you",
+      "content": "you"
+    },
+    {
+      "id": "8e3c",
+      "title": "i am",
+      "content": "i am"
+    },
+    {
+      "id": "13e6",
+      "title": "he",
+      "content": "he"
+    },
+    {
+      "id": "9a8c",
+      "title": "she",
+      "content": "she"
+    },
+    {
+      "id": "4a8a",
+      "title": "it",
+      "content": "it"
+    },
+    {
+      "id": "c409",
+      "title": "we",
+      "content": "we"
+    },
+    {
+      "id": "e337",
+      "title": "they",
+      "content": "they"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "postId": 1,
+      "content": "Great post!"
+    },
+    {
+      "id": "2",
+      "postId": 2,
+      "content": "Very interesting!"
+    }
+  ]
+}
