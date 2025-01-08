@@ -16,7 +16,7 @@ const Update = () => {
     e.preventDefault();
     axios.put(`http://localhost:3001/posts/${id}`, data)
       .then(() => {alert("yes");
-        nav("/"); 
+        nav("/home"); 
       })
       .catch((err) => console.log(err));
   };
