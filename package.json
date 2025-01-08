@@ -2,7 +2,7 @@
   "name": "app_1",
   "version": "0.1.0",
   "private": true,
-"homepage": "https://Anouarharchi.github.io/CRUD_REACT",
+"homepage": "https://Anouarharchi.github.io",
   "dependencies": {
     "axios": "^1.7.9",
     "bootstrap": "^5.3.3",

@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter , Routes, Route } from 'react-router-dom';
 import Home from "./app_react-crud/Home";
 import Create from "./app_react-crud/create";
 import Read from "./app_react-crud/read";
@@ -11,14 +11,14 @@ function App() {
     <>
       {/* component: */}
       {/* <Hello/> */}
-      <Router basename="/CRUD_REACT"> 
+      <BrowserRouter > 
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/create" element={<Create />} />
           <Route path="/update/:id" element={<Update />} />
           <Route path="/read/:id" element={<Read />} />
         </Routes>
-      </Router>
+      </BrowserRouter>
     </>
   );
 }

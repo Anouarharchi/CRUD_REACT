@@ -13,7 +13,7 @@ function Create(){
             .catch(err=>console.log(err.data));
             setContent("")
             setTitel("")
-            nav("/home"); 
+            nav("/"); 
 
 
     }
